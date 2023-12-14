@@ -1,0 +1,135 @@
+*{ font-weight: bolder;
+    font-variant: small-caps;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+color: white;
+
+}
+
+
+#body1{  background-color :black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+
+}
+
+.intro{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+text-shadow: 5px 5px  blue;
+color: white;
+
+}
+
+.links{ color: white;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+border: solid 2px lightgreen ;
+border-radius: 3px;
+padding: 10px;
+margin: 20px;
+
+}
+
+.contentbox{ display: flex;
+        flex-direction: row;
+ flex: auto;
+}
+
+.cb1{ border: solid white .2em;
+flex: auto;
+width: auto;
+height: auto;
+overflow: auto;
+color: blue;
+padding: 2em
+}
+
+.cb2{  border: solid white .2em;
+ flex: auto;
+ width: auto;
+height: auto;
+overflow: auto;
+color: blue;
+padding: 2em;
+}
+
+.cb3{  border: solid white .2em;
+flex: auto;
+width: auto;
+height: auto;
+overflow: auto;
+color: blue;
+padding: 2em;
+}
+
+#img1{ flex: 0;}
+
+#img2{flex: 0;}
+
+#img3{flex: 0;}
+
+#img4{flex: 0;}
+
+#end{ 
+    display: flex;
+   flex-direction: row;
+    padding: 1.5em;
+    margin :5em;
+    height: auto;
+  width: auto;}
+
+
+
+.textbox{ background: linear-gradient(gold,lightblue);
+border: outset 1px gold;
+border-radius: 1em;
+padding: 1em;
+margin: 1em;
+}
+ 
+p{ color: black;
+
+}
+
+#contentbox2{ 
+  align-items: center;
+margin: auto;
+width: auto;
+height: 200px;
+overflow: hidden;
+
+}
+
+.endbox1{padding:1em;
+  border: dashed 1px blue;
+
+overflow: hidden;}
+
+.endbox2{padding:1em;
+    border: dashed 1px blue;
+
+overflow: hidden;}
+
+.endbox3{padding:1em;
+  border: dashed 1px blue;
+
+overflow: hidden;}
+
+.endbox4{padding:1em;
+  border: dashed 1px blue;
+
+overflow: hidden;}
+
+.endbox5{padding:1em;
+  border: dashed 1px blue;
+  ;overflow: hidden;}
+
+.endbox6{padding:1em;
+  border: dashed 1px blue;
+  overflow: hidden;}
+
+.endbox7{padding:1em;
+  border: dashed 1px blue;
+
+overflow: hidden;}
