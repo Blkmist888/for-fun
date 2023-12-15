@@ -2,8 +2,7 @@
     font-variant: small-caps;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 color: white;
-margin: auto;
-
+/* UNIVERSAL SELECTOR */
 }
 
 
@@ -12,14 +11,14 @@ margin: auto;
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
-
+/*  BODY */
 }
 
 .intro{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
 text-shadow: 5px 5px  blue;
 color: white;
-
+/* INTRO */
 }
 
 .links{ color: white;
@@ -28,16 +27,18 @@ color: white;
 border: solid 3px blueviolet;
 padding: auto;
 margin: 20px;
-
+/* LINKS */
 }
 
 .contentbox{ display: flex;
         flex-direction: row;
- flex: auto;
+        /* CONTENTBOX */
+}
+
+.contentbox>*{ flex: 1;
 }
 
 .cb1{ border: solid white .2em;
-flex: auto;
 width: auto;
 height: auto;
 overflow: auto;
@@ -46,7 +47,6 @@ padding: 2em
 }
 
 .cb2{  border: solid white .2em;
- flex: auto;
  width: auto;
 height: auto;
 overflow: auto;
@@ -55,7 +55,6 @@ padding: 2em;
 }
 
 .cb3{  border: solid white .2em;
-flex: auto;
 width: auto;
 height: auto;
 overflow: auto;
@@ -63,29 +62,41 @@ color: blue;
 padding: 2em;
 }
 
-#img1{ flex: 0;}
+#img1{ flex: 1;
+margin: .5%}
 
-#img2{flex: 0;}
+#img2{flex: 1;
+margin: .5%;}
 
-#img3{flex: 0;}
+#img3{flex: 1;
+  margin: .5%;}
 
-#img4{flex: 0;}
+#img4{flex: 1;
+  margin: .5%;}
 
 #end{ 
     display: flex;
    flex-direction: row;
   
-    margin :auto;
+    margin :0;
+    padding: 0;
     height: fit-content;
-  width: fit-content;}
+  width: fit-content;
+}
+
+#end>*{ flex: 1;
+  border: 1px solid;
+  height: auto;
+
+
+}
 
 
 
-.textbox{ background: linear-gradient(gold,lightblue);
+.textbox{ background: linear-gradient(BLUE,WHITE);
 border: outset 1px gold;
-border-radius: 1em;
-padding: 1em;
 margin: 1em;
+padding:1em;
 }
  
 p{ color: black;
@@ -93,69 +104,11 @@ p{ color: black;
 }
 
 #contentbox2{ 
-  align-items: center;
-margin: auto;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 50px;
 width: auto;
-height: 200px;
+height: 175px;
 overflow: hidden;
 
 }
-
-.endbox1{padding:1em;
-  border: dashed 1px blue;
-
-overflow: auto;
-margin: auto;
-flex: auto;
-width:auto;
-height: auto;}
-
-.endbox2{padding:1em;
-    border: dashed 1px blue;
-overflow: auto;
-margin: auto;
-flex: auto;
-width:auto;
-height: auto;}
-
-.endbox3{padding:1em;
-  border: dashed 1px blue;
-
-overflow: auto;
-margin: auto;
-flex: auto;
-width:auto;
-height: auto;}
-
-.endbox4{padding:1em;
-  border: dashed 1px blue;
-
-overflow: auto;
-margin: auto;
-flex: auto;
-width:auto;
-height: auto;}
-
-.endbox5{padding:1em;
-  border: dashed 1px blue;
-  ;overflow: auto;
-margin: auto;
-flex: auto;
-width:auto;
-height: auto;}
-
-.endbox6{padding:1em;
-  border: dashed 1px blue;
-  overflow: auto;
-margin: auto;
-flex: auto;
-width:auto;
-height: auto;}
-
-.endbox7{
-  display: flex;
-  padding:1em;
-  border: dashed 1px blue;
-
-overflow: auto;
-margin: auto;}
